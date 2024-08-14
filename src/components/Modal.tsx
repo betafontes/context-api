@@ -1,9 +1,5 @@
 import { Description } from "./Description";
 
-interface IProps {
-  text: string;
-}
-
 export function Modal() {
   return (
     <div>

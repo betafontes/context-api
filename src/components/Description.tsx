@@ -1,10 +1,4 @@
-import { useContext } from 'react';
-import { AuthContext } from '../contexts/AuthContext';
 import { useAuth } from '../hooks/auth';
-
-interface IProps {
-  text: string;
-}
 
 export function Description() {
   const { user } = useAuth();
